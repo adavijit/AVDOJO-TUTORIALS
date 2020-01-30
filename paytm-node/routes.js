@@ -1,5 +1,5 @@
 const checksum_lib = require('./paytm/checksum/checksum')
-const port = 5000
+const port = 5500
 
 module.exports=(app)=>{
     app.get('/payment',(req,res)=>{
