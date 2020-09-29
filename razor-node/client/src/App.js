@@ -19,7 +19,7 @@ export class App extends Component {
     console.log("App -> razorPayPaymentHandler -> data", data)
     
     const options = {
-      key: 'rzp_test_a7T1FM41MtlfZ1',
+      key: '',
       name: "avdojo",
       description: "avodojo",
       order_id: data.id,
