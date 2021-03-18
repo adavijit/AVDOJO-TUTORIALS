@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.AppLogo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.AppHeader {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.AppLink {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700&display=swap");
+.body {
+  padding: 40px;
+  font-family: "Mukta", Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  background-color: #282c34;
+  margin-top: 5em;
+}
+
+.hr {
+  border-top: 1px solid #E0E0E0;
+}
+
+.p {
+  margin: 4px 0;
+}
+
+.p.description {
+  font-size: 27px;
+}
+
+.date {
+  margin: 8px 0;
+  font-weight: 700;
+  font-size: 15px;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+div.card {
+  margin: 0 auto;
+  padding: 25px 30px;
+  width: fit-content;
+  border: 1px solid #D7D7D7;
+  border-radius: 15px;
+  background: #FFF;
+}
+
+div.numbers div {
+  display: inline-block;
+  vertical-align: middle;
+}
+div.numbers .temp {
+  font-weight: 300;
+  font-size: 96px;
+}
+div.numbers .temp .unit {
+  font-weight: 700;
+  font-size: 40px;
+  vertical-align: super;
+}
+div.numbers .icon > img {
+  width: 120px;
+}
+div.numbers .measurements tr {
+  height: 30px;
+}
+div.numbers .measurements .label {
+  width: 100px;
+  color: #777;
+}
+
+div.hourly div {
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+}
+div.hourly img {
+  width: 80px;
+}
+
+div.search h1.city {
+  display: inline;
+  font-weight: 700;
+  font-size: 27px;
+}
+div.search input {
+  margin: 0;
+  margin-bottom: -4px;
+  padding: 0;
+  line-height: 1.3;
+  width: 300px;
+  background: none;
+  border: none;
+  outline: none;
+  font-family: "Mukta", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+}
+div.search input:focus {
+  outline: none;
+}
+div.search ._edit {
+  display: inline-block;
+  opacity: 0.4;
+  background: none;
+  outline: none;
+  border: none;
+}
+div.search ._edit > img {
+  width: 16px;
+}
+div.search ._edit:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+div.search div.search-results {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  margin-top: 6px;
+  margin-left: -16px;
+  width: 300px;
+  max-height: 170px;
+  overflow-y: scroll;
+  background: #FFF;
+  box-shadow: 0 8px 10px #DDD;
+  font-weight: 400;
+}
+div.search div.search-results li {
+  padding: 16px 16px;
+}
+div.search div.search-results li:hover {
+  cursor: pointer;
+  background: #EC6E4C;
+  color: #FFF;
+}
