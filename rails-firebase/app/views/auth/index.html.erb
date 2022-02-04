@@ -1,0 +1,20 @@
+<h2>Login</h2>
+
+<%= form_with url: login_path, local:true, method: :post do %>
+<div>
+  <%= label_tag "email" %>
+  <%= email_field_tag "email", nil %>
+
+  <%= label_tag "password" %>
+  <%= password_field_tag "password", nil %>
+
+  <%= submit_tag "Login" %>
+</div>
+
+<% end %>
+
+<br/>
+<br/>
+<br/>
+
+<%= link_to 'Register', signup_url %>

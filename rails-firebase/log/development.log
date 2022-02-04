@@ -1,0 +1,203 @@
+Started GET "/" for ::1 at 2022-02-04 11:34:56 +0530
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/avijitdas/.rvm/gems/ruby-3.1.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/avijitdas/.rvm/gems/ruby-3.1.0/gems/railties-7.0.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.4ms | Allocations: 874)
+Completed 200 OK in 29ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 7927)
+
+
+Started GET "/" for ::1 at 2022-02-04 11:45:03 +0530
+Processing by AuthController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/index.html.erb within layouts/application
+  Rendered auth/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1213)
+  Rendered layout layouts/application.html.erb (Duration: 276.8ms | Allocations: 90434)
+Completed 200 OK in 280ms (Views: 278.9ms | Allocations: 91778)
+
+
+Started GET "/" for ::1 at 2022-02-04 11:45:27 +0530
+Processing by AuthController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/index.html.erb within layouts/application
+  Rendered auth/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1100)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3640)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 4790)
+
+
+Started GET "/" for ::1 at 2022-02-04 11:45:54 +0530
+Processing by AuthController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/index.html.erb within layouts/application
+  Rendered auth/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1068)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3609)
+Completed 200 OK in 9ms (Views: 7.4ms | Allocations: 4767)
+
+
+Started GET "/signup" for ::1 at 2022-02-04 11:46:18 +0530
+Processing by AuthController#signup as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/signup.html.erb within layouts/application
+  Rendered auth/signup.html.erb within layouts/application (Duration: 1.4ms | Allocations: 807)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2847)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 3187)
+
+
+Started GET "/signup" for ::1 at 2022-02-04 11:51:32 +0530
+Processing by AuthController#signup as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/signup.html.erb within layouts/application
+  Rendered auth/signup.html.erb within layouts/application (Duration: 0.9ms | Allocations: 577)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 14033)
+Completed 200 OK in 768ms (Views: 19.4ms | Allocations: 16897)
+
+
+Started POST "/signup" for ::1 at 2022-02-04 11:51:46 +0530
+Processing by AuthController#signup as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"abc@test.com", "password"=>"[FILTERED]", "commit"=>"Signup"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1041ms (Allocations: 2474)
+
+
+Started GET "/" for ::1 at 2022-02-04 11:51:47 +0530
+Processing by AuthController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering auth/index.html.erb within layouts/application
+  Rendered auth/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2626)
+Completed 200 OK in 6ms (Views: 4.8ms | Allocations: 2986)
+
+
+Started GET "/" for ::1 at 2022-02-04 11:54:19 +0530
+Processing by AuthController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/index.html.erb within layouts/application
+  Rendered auth/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 628)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 14015)
+Completed 200 OK in 18ms (Views: 17.0ms | Allocations: 14963)
+
+
+Started POST "/login" for ::1 at 2022-02-04 11:54:28 +0530
+Processing by AuthController#login as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"abc@test.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/home
+Completed 302 Found in 734ms (Allocations: 2256)
+
+
+Started GET "/home" for ::1 at 2022-02-04 11:54:29 +0530
+Processing by AuthController#home as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering auth/home.html.erb within layouts/application
+  Rendered auth/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 188)
+  Rendered layout layouts/application.html.erb (Duration: 28.7ms | Allocations: 2397)
+Completed 200 OK in 31ms (Views: 30.0ms | Allocations: 2683)
+
+
+Started GET "/home" for ::1 at 2022-02-04 11:58:22 +0530
+Processing by AuthController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/home.html.erb within layouts/application
+  Rendered auth/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 766)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 14552)
+Completed 200 OK in 20ms (Views: 19.0ms | Allocations: 15684)
+
+
+Started GET "/home" for ::1 at 2022-02-04 11:58:27 +0530
+Processing by AuthController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/home.html.erb within layouts/application
+  Rendered auth/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 330)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2370)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 2653)
+
+
+Started POST "/logout" for ::1 at 2022-02-04 11:58:35 +0530
+Processing by AuthController#logout as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "commit"=>"Logout"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (Allocations: 873)
+
+
+Started GET "/" for ::1 at 2022-02-04 11:58:35 +0530
+Processing by AuthController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering auth/index.html.erb within layouts/application
+  Rendered auth/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 733)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2770)
+Completed 200 OK in 6ms (Views: 4.9ms | Allocations: 3279)
+
+
+Started GET "/" for ::1 at 2022-02-04 11:58:38 +0530
+Processing by AuthController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/index.html.erb within layouts/application
+  Rendered auth/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 274)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2311)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 2729)
+
+
+Started GET "/signup" for ::1 at 2022-02-04 11:58:44 +0530
+Processing by AuthController#signup as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/signup.html.erb within layouts/application
+  Rendered auth/signup.html.erb within layouts/application (Duration: 1.8ms | Allocations: 796)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2825)
+Completed 200 OK in 600ms (Views: 6.8ms | Allocations: 4726)
+
+
+Started POST "/signup" for ::1 at 2022-02-04 11:58:56 +0530
+Processing by AuthController#signup as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"xyz@test.com", "password"=>"[FILTERED]", "commit"=>"Signup"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1130ms (Allocations: 1853)
+
+
+Started GET "/" for ::1 at 2022-02-04 11:58:57 +0530
+Processing by AuthController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering auth/index.html.erb within layouts/application
+  Rendered auth/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 274)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2311)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 2750)
+
+
+Started POST "/login" for ::1 at 2022-02-04 11:59:17 +0530
+Processing by AuthController#login as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "email"=>"xyz@test.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+Redirected to http://localhost:3000/home
+Completed 302 Found in 558ms (Allocations: 1820)
+
+
+Started GET "/home" for ::1 at 2022-02-04 11:59:17 +0530
+Processing by AuthController#home as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering auth/home.html.erb within layouts/application
+  Rendered auth/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 312)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2351)
+Completed 200 OK in 6ms (Views: 5.1ms | Allocations: 2622)
+
+
+Started GET "/home" for ::1 at 2022-02-04 11:59:19 +0530
+Processing by AuthController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering auth/home.html.erb within layouts/application
+  Rendered auth/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2372)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 2637)
+
+
+Started POST "/logout" for ::1 at 2022-02-04 11:59:26 +0530
+Processing by AuthController#logout as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "commit"=>"Logout"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (Allocations: 402)
+
+
+Started GET "/" for ::1 at 2022-02-04 11:59:26 +0530
+Processing by AuthController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering auth/index.html.erb within layouts/application
+  Rendered auth/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 278)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2328)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 2743)
+
+
