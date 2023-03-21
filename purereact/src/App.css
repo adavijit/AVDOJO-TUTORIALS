@@ -1,0 +1,12 @@
+.input-div {
+  width: 10rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.comp-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
